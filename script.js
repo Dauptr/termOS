@@ -149,7 +149,6 @@ function sendMessage(text) {
 
 // --- AI INTEGRATION ---
 function processAIRequest(instruction) {
-  // Example: Replace with your AI API call
   log(`<i>AI processing: ${instruction}</i>`, 'ai-msg');
   // Simulate AI response
   setTimeout(() => {
@@ -174,7 +173,6 @@ function executeAIAction(action) {
   }
 }
 function playRadio() {
-  // Example: Play a radio stream (implement as needed)
   log("🎵 Playing radio... [Not implemented]", "system");
 }
 
